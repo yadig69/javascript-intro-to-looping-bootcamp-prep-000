@@ -50,13 +50,13 @@ function doWhileLoop(num) {
   var i = 0;
 
   function incrementVariable() {
-    i++
+    i = i + 1
     return i;
   }
   do {
     console.log(i, "I run once regardless.");
   }
-  while (incrementVariable() <= 1);
+  while (incrementVariable() <= 9);
 }
 
 doWhileLoop(1);
