@@ -59,4 +59,4 @@ function doWhileLoop(num) {
   while (incrementVariable() <= 9);
 }
 
-doWhileLoop(10);
+doWhileLoop(1);
