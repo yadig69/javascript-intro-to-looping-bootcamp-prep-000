@@ -46,9 +46,17 @@ function whileLoop (number){
 }
 
 
-function doWhileLoop(array) {
-  do { array.pop();
-    } while
-      (array.length > 0 && maybeTrue());
-          return array
+function doWhileLoop(num) {
+  var i = 0;
+
+  function incrementVariable() {
+    i++
+    return i;
+  }
+  do {
+    console.log(i, "I run once regardless.");
+  }
+  while (incrementVariable() <= 9);
 }
+
+doWhileLoop(10);
